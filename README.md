@@ -5,17 +5,19 @@ Application the Free Software and Open Source Symposium
 
 <h2>Git Tutorial</h2>
 <a href="http://www.githowto.com" target="_blank">Git How To</a>
+<hr>
 
-Features done so far:
+Features:
+=========
+- [-] JSON Parser
+- [ ] List of events
+- [ ] Appointment creation on local calendar
+- [ ] Integration of web site into the app
+- [ ] Ability to create notes
 
-    JSON Parser
+([ ] = being developed, [-] = partially done, [X] = finished)
 
-Features in progress:
-
-    List of events
-    Appointment creation on local calendar
-    Integration of web site into the app
-    Ability to create notes
+=======
 
 Please use the form (link below) if you have any questions or want to update any one else working on the project.
 
