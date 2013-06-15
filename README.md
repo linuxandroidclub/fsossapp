@@ -5,7 +5,6 @@ Application the Free Software and Open Source Symposium
 
 <h2>Git Tutorial</h2>
 <a href="http://www.githowto.com" target="_blank">Git How To</a>
-<hr>
 
 Features:
 =========
