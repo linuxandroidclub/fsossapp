@@ -5,5 +5,13 @@
     <string name="title_activity_main">Main Activity</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_note">Note</string>
+    <string name="title_note">Note Title</string>
+    <string name="content_note">Add any notes here</string>
+    <string name="action_save">Save</string>
+    <string name="alert_title">Empty fields</string>
+    <string name="alert_message">All fields must be filled</string>
+    <string name="action_delete">Delete</string>
 
 </resources>

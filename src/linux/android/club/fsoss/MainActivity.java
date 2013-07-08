@@ -1,47 +1,53 @@
 package linux.android.club.fsoss;
 
-import android.app.Activity;
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.TextView;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity implements ActionBar.TabListener{
 
-	TextView tv1;
+	PagerAdapter mPagerAdapter;
+	ViewPager mViewPager;
+	ActionBar mActionBar;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		Button button1 = (Button)findViewById(R.id.button1);
-		tv1 = (TextView) findViewById(R.id.textView1);
-		
-		button1.setOnClickListener(new OnClickListener() {
-			
+		mPagerAdapter = new PagerAdapter(getSupportFragmentManager());
+		mActionBar = getActionBar();
+		mActionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+		mViewPager = (ViewPager) findViewById(R.id.pager);
+		mViewPager.setAdapter(mPagerAdapter);
+		mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+
 			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				tv1.setText("Test");
+			public void onPageSelected(int position) {
+				mActionBar.setSelectedNavigationItem(position);
 			}
+			
 		});
-		
+		Tab eventTab = mActionBar.newTab().setText("Events").setTabListener(this);
+		mActionBar.addTab(mActionBar.newTab().setText("Web").setTabListener(this));
+		mActionBar.addTab(eventTab);
+		mActionBar.addTab(mActionBar.newTab().setText("Notes").setTabListener(this));
+		mActionBar.selectTab(eventTab);
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+	public void onTabReselected(Tab tab, FragmentTransaction ft) {
 	}
 
 	@Override
-	protected void onStop() {
-		// TODO Auto-generated method stub
-		super.onStop();
+	public void onTabSelected(Tab tab, FragmentTransaction ft) {
+		mViewPager.setCurrentItem(tab.getPosition());
+	}
+
+	@Override
+	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
 
 }
