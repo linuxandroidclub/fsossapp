@@ -13,5 +13,6 @@
     <string name="alert_title">Empty fields</string>
     <string name="alert_message">All fields must be filled</string>
     <string name="action_delete">Delete</string>
+    <string name="empty_notes">No notes added</string>
 
 </resources>
