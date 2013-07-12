@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/vehicleType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <!-- Description label -->
+
+    <TextView
+        android:id="@+id/vehicleColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Cost Label -->
+
+        <TextView
+            android:id="@+id/fuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Mobile: "
+            android:textColor="#5d5d5d"
+            android:textStyle="bold" >
+        </TextView>
+        <!-- Price Label -->
+
+        <TextView
+            android:id="@+id/treadType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="#acacac"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

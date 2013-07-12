@@ -25,14 +25,21 @@ public final class R {
     }
     public static final class id {
         public static final int ProgressBar=0x7f080005;
-        public static final int action_add=0x7f080007;
-        public static final int action_delete=0x7f080006;
-        public static final int action_save=0x7f080009;
-        public static final int action_settings=0x7f080008;
+        public static final int action_add=0x7f08000b;
+        public static final int action_delete=0x7f08000a;
+        public static final int action_events_refresh=0x7f080010;
+        public static final int action_save=0x7f08000c;
+        public static final int action_sort_event=0x7f08000e;
+        public static final int action_sort_speaker=0x7f08000f;
+        public static final int action_sort_time=0x7f08000d;
         public static final int etNote=0x7f080002;
         public static final int etNoteTitle=0x7f080001;
-        public static final int eventDummyText=0x7f080003;
+        public static final int fuel=0x7f080008;
         public static final int pager=0x7f080000;
+        public static final int pbEvents=0x7f080003;
+        public static final int treadType=0x7f080009;
+        public static final int vehicleColor=0x7f080007;
+        public static final int vehicleType=0x7f080006;
         public static final int webView1=0x7f080004;
     }
     public static final class layout {
@@ -41,15 +48,18 @@ public final class R {
         public static final int fragment_event=0x7f030002;
         public static final int fragment_note=0x7f030003;
         public static final int fragment_web=0x7f030004;
+        public static final int list_item=0x7f030005;
     }
     public static final class menu {
         public static final int context_menu=0x7f070000;
         public static final int main=0x7f070001;
         public static final int note=0x7f070002;
+        public static final int options_event=0x7f070003;
     }
     public static final class string {
         public static final int action_add=0x7f050004;
         public static final int action_delete=0x7f05000b;
+        public static final int action_refresh=0x7f050010;
         public static final int action_save=0x7f050008;
         public static final int action_settings=0x7f050002;
         public static final int alert_message=0x7f05000a;
@@ -58,6 +68,9 @@ public final class R {
         public static final int content_note=0x7f050007;
         public static final int empty_notes=0x7f05000c;
         public static final int hello_world=0x7f050003;
+        public static final int sort_event=0x7f05000e;
+        public static final int sort_speaker=0x7f05000f;
+        public static final int sort_time=0x7f05000d;
         public static final int title_activity_main=0x7f050001;
         public static final int title_activity_note=0x7f050005;
         public static final int title_note=0x7f050006;

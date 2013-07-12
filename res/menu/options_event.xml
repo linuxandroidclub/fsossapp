@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_sort_time"
+        android:showAsAction="always"
+        android:title="@string/sort_time"/>
+    <item
+        android:id="@+id/action_sort_event"
+        android:showAsAction="always"
+        android:title="@string/sort_event"/>
+    <item
+        android:id="@+id/action_sort_speaker"
+        android:showAsAction="always"
+        android:title="@string/sort_speaker"/>
+    <item
+        android:id="@+id/action_events_refresh"
+        android:showAsAction="always"
+        android:title="@string/action_refresh"/>
+
+</menu>

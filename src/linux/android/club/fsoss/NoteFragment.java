@@ -111,8 +111,6 @@ public class NoteFragment extends ListFragment {
 			Intent noteActivity = new Intent(getActivity(), NoteActivity.class);
 			startActivity(noteActivity);
 			return true;
-		case R.id.action_settings:
-			return true;
 		default:
 			return super.onOptionsItemSelected(item);
 		}

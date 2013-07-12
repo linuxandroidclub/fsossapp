@@ -14,5 +14,9 @@
     <string name="alert_message">All fields must be filled</string>
     <string name="action_delete">Delete</string>
     <string name="empty_notes">No notes added</string>
+    <string name="sort_time">Time</string>
+    <string name="sort_event">Event</string>
+    <string name="sort_speaker">Speaker</string>
+    <string name="action_refresh">Refresh</string>
 
 </resources>

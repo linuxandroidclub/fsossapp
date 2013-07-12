@@ -62,8 +62,6 @@ public class NoteActivity extends Activity {
 				this.finish();
 			}
 			return true;
-		case R.id.action_settings:
-			return true;
 		default:
 			return super.onOptionsItemSelected(item);
 		}
