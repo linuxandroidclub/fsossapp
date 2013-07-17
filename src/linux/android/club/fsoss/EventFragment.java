@@ -56,8 +56,16 @@ public class EventFragment extends ListFragment{
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// TODO Auto-generated method stub
-		return super.onOptionsItemSelected(item);
+		switch(item.getItemId()) {
+		case R.id.action_events_refresh:
+			jsonlist.clear();
+			new ProgressTask(getActivity()).execute();
+		case R.id.action_sort_event:
+		case R.id.action_sort_speaker:
+		case R.id.action_sort_time:
+		default:
+			return super.onOptionsItemSelected(item);
+		}
 	}
 
 	private class ProgressTask extends AsyncTask<String, Void, Boolean> {

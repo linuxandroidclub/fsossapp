@@ -1,7 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-        
-    <item 
+
+    <item
         android:id="@+id/action_save"
+        android:icon="@drawable/save_light"
         android:showAsAction="always"
         android:title="@string/action_save"/>
 

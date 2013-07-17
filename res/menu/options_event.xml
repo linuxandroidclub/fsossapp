@@ -2,19 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_sort_time"
+        android:icon="@drawable/sort_light"
         android:showAsAction="always"
-        android:title="@string/sort_time"/>
-    <item
-        android:id="@+id/action_sort_event"
-        android:showAsAction="always"
-        android:title="@string/sort_event"/>
-    <item
-        android:id="@+id/action_sort_speaker"
-        android:showAsAction="always"
-        android:title="@string/sort_speaker"/>
+        android:title="@string/action_sort">
+        <menu>
+            <item
+                android:id="@+id/action_sort_time"
+                android:showAsAction="always"
+                android:title="@string/sort_time"/>
+            <item
+                android:id="@+id/action_sort_event"
+                android:showAsAction="always"
+                android:title="@string/sort_event"/>
+            <item
+                android:id="@+id/action_sort_speaker"
+                android:showAsAction="always"
+                android:title="@string/sort_speaker"/>
+        </menu>
+    </item>
     <item
         android:id="@+id/action_events_refresh"
+        android:icon="@drawable/refresh_light"
         android:showAsAction="always"
         android:title="@string/action_refresh"/>
 

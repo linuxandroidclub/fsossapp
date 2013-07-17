@@ -18,5 +18,6 @@
     <string name="sort_event">Event</string>
     <string name="sort_speaker">Speaker</string>
     <string name="action_refresh">Refresh</string>
+    <string name="action_sort">Sort</string>
 
 </resources>
