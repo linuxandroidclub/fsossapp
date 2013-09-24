@@ -26,20 +26,24 @@ public final class R {
         public static final int new_item_light=0x7f020002;
         public static final int refresh=0x7f020003;
         public static final int refresh_light=0x7f020004;
-        public static final int save=0x7f020005;
-        public static final int save_light=0x7f020006;
-        public static final int sort=0x7f020007;
-        public static final int sort_light=0x7f020008;
+        public static final int rounded_corners_dark_gray=0x7f020005;
+        public static final int rounded_corners_white=0x7f020006;
+        public static final int save=0x7f020007;
+        public static final int save_light=0x7f020008;
+        public static final int sort=0x7f020009;
+        public static final int sort_light=0x7f02000a;
     }
     public static final class id {
         public static final int ProgressBar=0x7f080005;
-        public static final int action_add=0x7f08000b;
-        public static final int action_delete=0x7f08000a;
-        public static final int action_events_refresh=0x7f080010;
-        public static final int action_save=0x7f08000c;
-        public static final int action_sort_event=0x7f08000e;
-        public static final int action_sort_speaker=0x7f08000f;
-        public static final int action_sort_time=0x7f08000d;
+        public static final int action_add=0x7f08000d;
+        public static final int action_delete=0x7f08000c;
+        public static final int action_events_refresh=0x7f080012;
+        public static final int action_save=0x7f08000e;
+        public static final int action_sort_event=0x7f080010;
+        public static final int action_sort_speaker=0x7f080011;
+        public static final int action_sort_time=0x7f08000f;
+        public static final int btnAddReminder=0x7f08000a;
+        public static final int btnEmail=0x7f08000b;
         public static final int etNote=0x7f080002;
         public static final int etNoteTitle=0x7f080001;
         public static final int fuel=0x7f080008;
@@ -66,7 +70,9 @@ public final class R {
     }
     public static final class string {
         public static final int action_add=0x7f050004;
+        public static final int action_add_reminder=0x7f050012;
         public static final int action_delete=0x7f05000b;
+        public static final int action_email=0x7f050013;
         public static final int action_refresh=0x7f050010;
         public static final int action_save=0x7f050008;
         public static final int action_settings=0x7f050002;

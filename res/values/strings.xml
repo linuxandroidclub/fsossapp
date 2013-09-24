@@ -19,5 +19,7 @@
     <string name="sort_speaker">Speaker</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_sort">Sort</string>
+    <string name="action_add_reminder">Add Reminder</string>
+    <string name="action_email">Email</string>
 
 </resources>

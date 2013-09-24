@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners_white"
     android:orientation="vertical" >
 
     <!-- Name Label -->
@@ -10,8 +11,7 @@
         android:id="@+id/vehicleType"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="2dip"
-        android:paddingTop="6dip"
+        android:padding="5dp"
         android:textColor="#43bd00"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -21,6 +21,7 @@
         android:id="@+id/vehicleColor"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:paddingBottom="2dip"
         android:textColor="#acacac" >
     </TextView>
@@ -37,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:text="Mobile: "
+            android:padding="5dp"
             android:textColor="#5d5d5d"
             android:textStyle="bold" >
         </TextView>
@@ -48,9 +49,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
+            android:padding="5dp"
             android:textColor="#acacac"
             android:textStyle="bold" >
         </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnAddReminder"
+            android:paddingRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/action_add_reminder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnEmail"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/action_email" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

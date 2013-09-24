@@ -17,15 +17,14 @@
         android:layout_alignParentTop="true"
         android:layout_margin="10dp"
         android:ems="10" />
-		<requestFocus />
+                <requestFocus />
     <EditText
         android:id="@+id/etNote"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/etNoteTitle"
         android:layout_margin="10dp"
         android:hint="@string/content_note"
-        android:ems="10"
         android:inputType="textMultiLine" >
     </EditText>
 

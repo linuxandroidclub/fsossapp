@@ -25,7 +25,7 @@ import android.widget.ListAdapter;
 import android.widget.ProgressBar;
 import android.widget.SimpleAdapter;
 
-public class EventFragment extends ListFragment{
+public class EventFragment extends ListFragment {
 	private static String url = "http://docs.blackberry.com/sampledata.json";
 
 	private static final String TAG_VTYPE = "vehicleType";
@@ -124,4 +124,5 @@ public class EventFragment extends ListFragment{
 			return true;
 		}
 	}
+	
 }
