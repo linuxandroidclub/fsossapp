@@ -12,7 +12,7 @@ Features:
 - [ ] List of events
 - [ ] Appointment creation on local calendar
 - [ ] Integration of web site into the app
-- [ ] Ability to create notes
+- [X] Ability to create notes
 
 ([ ] = being developed, [-] = partially done, [X] = finished)
 

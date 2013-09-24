@@ -8,10 +8,10 @@ Application the Free Software and Open Source Symposium
 
 Features:
 =========
-- [-] JSON Parser
-- [ ] List of events
-- [ ] Appointment creation on local calendar
-- [ ] Integration of web site into the app
+- [X] JSON Parser
+- [X] List of events
+- [-] Appointment creation on local calendar
+- [X] Integration of web site into the app
 - [X] Ability to create notes
 
 ([ ] = being developed, [-] = partially done, [X] = finished)
